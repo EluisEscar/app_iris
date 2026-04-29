@@ -76,7 +76,7 @@ def save_prediction(
         cursor = connection.cursor()
 
         query = """
-            INSERT INTO iris_predictions (
+            INSERT INTO tb_iris (
                 l_s,
                 a_s,
                 l_p,
